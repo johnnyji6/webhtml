@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>FormHTML5</li>
+                    </a>
+
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="formularios">
+                    <h1 class="txt-center">Formularios</h1>
+                    <h2>Form login</h2>
+                    <form action="form.html" method="get">
+                        Usuario: <input type="user" name="user"> <br /><br />
+                        Contraseña: <input type="password" name="clave"> <br /><br />
+                        <input type="submit" value="Aceptar">
+                    </form>
+
+                    <br /><br />
+
+                    <h2>Form registro</h2>
+                    <form class="registro" action="form.html" method="get">
+                        <fieldset>
+                            <legend>Registro </legend>
+                            <input type="user" name="user" placeholder="User" class="widthchart"> <br /><br />
+                            <input type="user" name="nick" placeholder="Nick" class="nickpasschart">
+                            <input type="password" name="clave" placeholder="Password" class="nickpasschart">
+                            <br /><br />
+                            <textarea name="comentarios" id="" cols="30" rows="3" class="widthchart"
+                                placeholder="Comentarios"></textarea>
+                            <br /><br />
+
+                            <div class="aficiones">
+                                Aficiones: <br />
+                                <input type="checkbox" name="aficiones" value="futbol" />Fútbol <br />
+                                <input type="checkbox" name="aficiones" value="baloncesto" />Baloncesto <br />
+                                <input type="checkbox" name="aficiones" value="badminton" />Bádminton <br />
+                                <input type="checkbox" name="aficiones" value="arco" />Tiro con arco <br /><br />
+                            </div>
+                            <div class="sexo">
+                                Sexo: <br />
+                                <input type="radio" name="sexo" value="hombre" />Hombre <br />
+                                <input type="radio" name="sexo" value="mujer" />Mujer <br />
+                                <input type="radio" name="sexo" value="Otro" />Personal <br /><br />
+                            </div>
+                            <div class="cb"></div>
+
+                            <br />
+
+                            <div class="mes">
+                                Mes: <select name="Mes">
+                                    <option value="1">Enero</option>
+                                    <option value="2">Febrero</option>
+                                    <option value="3">Marzo</option>
+                                    <option value="4">Abril</option>
+                                    <option value="5">Mayo</option>
+                                    <option value="6">Junio</option>
+                                    <option value="7">Julio</option>
+                                    <option value="8">Agosto</option>
+                                    <option value="9">Septiembre</option>
+                                    <option value="10">Octubre</option>
+                                    <option value="11">Noviembre</option>
+                                    <option value="12">Diciembre</option>
+                                </select>
+                            </div>
+                            <div>
+                                <span class="mesmultiple">Mes múltiple:</span>
+                            </div>
+                            <select name="Mes" multiple size="6">
+                                <option value="1">Enero</option>
+                                <option value="2">Febrero</option>
+                                <option value="3">Marzo</option>
+                                <option value="4">Abril</option>
+                                <option value="5">Mayo</option>
+                                <option value="6">Junio</option>
+                                <option value="7">Julio</option>
+                                <option value="8">Agosto</option>
+                                <option value="9">Septiembre</option>
+                                <option value="10">Octubre</option>
+                                <option value="11">Noviembre</option>
+                                <option value="12">Diciembre</option>
+                            </select>
+                            <div class="cb"></div>
+                            <br /><br />
+                            <p class="txt-center">
+                                <input type="submit" value="Aceptar">
+                            </p>
+                        </fieldset>
+                    </form>
+
+                    <br />
+
+                </div>
+            </div>
+        </div>
+        <div class="cb"></div>
+        <footer>&copy; S1-DAW Johnny</footer>
+    </div>
+    </div>
+</body>
+
+</html>

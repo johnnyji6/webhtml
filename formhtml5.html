@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script>
+        function updateTxtRange(valor) {
+            document.getElementById('idrange').value = valor
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <header></header>
+        <div id="principal">
+            <nav>
+                <ul>
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="parrafos.html">
+                        <li>Párrafos</li>
+                    </a>
+                    <a href="enlaces.html">
+                        <li>Enlaces</li>
+                    </a>
+                    <a href="listas.html">
+                        <li>Listas</li>
+                    </a>
+                    <a href="tablas.html">
+                        <li>Tablas</li>
+                    </a>
+                    <a href="formularios.html">
+                        <li>Formularios</li>
+                    </a>
+                    <a href="multimedia.html">
+                        <li>Multimedia</li>
+                    </a>
+                    <a href="formhtml5.html">
+                        <li>FormHTML5</li>
+                    </a>
+
+                </ul>
+            </nav>
+            <div id="content">
+                <div id="formhtml5">
+                    <h1 class="txt-center">Formularios HTML5</h1>
+                    <form action="pagina.html" method="get" enctype="multipart/form-data">
+                        <!-- El enctype sirve para que se puedan enviar los archivos del input:file -->
+                        <fieldset>
+                            <legend>Form HTML5</legend>
+                            <p><input type="url" name="url" id="" placeholder="url"></p>
+                            <p><input type="email" name="email" id="" placeholder="email"></p>
+                            <p><input type="date" name="fecha" id="" placeholder="fecha"></p>
+                            <p><input type="datetime-local" name="fechahora" id=""></p>
+                            <p><input type="month" name="mes" id=""></p>
+                            <p><input type="week" name="semana" id=""></p>
+                            <p><input type="color" name="" id=""></p>
+                            <p><input type="number" name="numero" id="" min="0" max="100" step="10"></p>
+                            <p><input type="range" name="rango" id="" min="0" max="100" step="10"
+                                    onchange="updateTxtRange(this.value)">
+                                <input type="text" id="idrange" disabled></p>
+                            <p><input type="file" name="archivo" id=""></p>
+                            <p><input type="image" src="img/heart.png" alt=""></p>
+                            <p><input type="search" name="buscar" id="" placeholder="search"></p>
+
+                            <input type="reset" value="Clear"> <input type="submit" value="Enviar">
+                        </fieldset>
+                    </form>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+        <div class="cb"></div>
+        <footer>&copy; S1-DAW Johnny</footer>
+    </div>
+    </div>
+</body>
+
+</html>
