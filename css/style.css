@@ -99,7 +99,7 @@ nav ul li:hover {
 .caja {
     width: 20%;
     height: 100px;
-    background-color: grey;
+    background-color: black;
 }
 
 #listas {
@@ -135,7 +135,7 @@ ol.ldci li {
 }
 
 ol.ldci ol li {
-    list-style: url(../img/heart.png);
+    list-style: url(../img/strawhat.png);
 }
 
 ol.ldci ol li ol li {
@@ -222,6 +222,16 @@ form.registro {
     width: 40%;
     
 }
+
+#formularios form fieldset {
+    background-color: rgb(13, 219, 226);
+}
+
+#formularios form fieldset legend {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+  }
 
 .widthchart {
     width: 99%;
