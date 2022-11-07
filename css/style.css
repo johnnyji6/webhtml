@@ -3,13 +3,13 @@
 }
 
 body {
-    background-color: rgb(196, 244, 227);
+    background-color: rgb(196, 244, 227)¡;
     margin: 0;
     padding: 0;
 }
 
 .container {
-    background-color: bisque;
+    background-color: rgb(135, 135, 135);
     width: 90%;
     margin: 0 auto;
 }
@@ -17,9 +17,11 @@ body {
 header {
     background-color: rgb(102, 241, 102);
     height: 200px;
-    background-image: url(../img/header.png);
+    background-image: url(../img/onepieceheader.jpg);
     background-repeat: no-repeat;
+    background-size: 1200px auto ;
     background-size: cover;
+    background-position: center;
 }
 
 nav {
@@ -38,13 +40,14 @@ nav {
 }
 
 footer {
-    background-color: darkorchid;
+    background-color: black;
     height: 50px;
     color: rgb(216, 213, 247);
     text-align: center;
     font-size: 26px;
     font-weight: bold;
     padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
@@ -238,7 +241,7 @@ width: 49%;
 
 .mesmultiple {
     float: left;
-    margin-left: 25%;
+    margin-left: 20%;
 }
 
 audio {
