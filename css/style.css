@@ -19,7 +19,7 @@ header {
     height: 200px;
     background-image: url(../img/onepieceheader.jpg);
     background-repeat: no-repeat;
-    background-size: 1200px auto ;
+    background-size: 1200px auto;
     background-size: cover;
     background-position: center;
 }
@@ -220,7 +220,7 @@ table tr td.ING {
 
 form.registro {
     width: 40%;
-    
+
 }
 
 #formularios form fieldset {
@@ -231,19 +231,21 @@ form.registro {
     background-color: black;
     color: white;
     padding: 5px 10px;
-  }
+}
 
 .widthchart {
     width: 99%;
 }
 
 .nickpasschart {
-width: 49%;
+    width: 49%;
 }
 
-.aficiones, .mes {
+.aficiones,
+.mes {
     float: left;
 }
+
 .sexo {
     float: left;
     margin-left: 50%;
