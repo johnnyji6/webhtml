@@ -220,7 +220,7 @@ table tr td.ING {
 
 form.registro {
     width: 40%;
-
+    margin: 0 auto;
 }
 
 #formularios form fieldset {
